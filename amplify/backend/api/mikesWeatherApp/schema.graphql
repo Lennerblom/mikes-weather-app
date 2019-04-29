@@ -1,0 +1,20 @@
+type Query {
+ weatherByCity(city: String!): Weather
+}
+type Weather {
+ timestamp: Int
+ location: String
+ condition: Int
+ description: String
+ temperature: Float
+ pressure: Float
+ humidity: Float
+ wind_speed: Float
+ wind_direction: Int
+ cloud_cover: Float
+ rain_volume: Float
+ snow_volume: Float
+}
+schema {
+ query: Query
+}

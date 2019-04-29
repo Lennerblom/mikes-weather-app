@@ -1,0 +1,19 @@
+{
+    "web": {
+        "awscloudformation": {
+            "AuthRoleName": "mikes-weather-app-20190428161249-authRole",
+            "UnauthRoleArn": "arn:aws:iam::198625389633:role/mikes-weather-app-20190428161249-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::198625389633:role/mikes-weather-app-20190428161249-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "mikes-weather-app-20190428161249-deployment",
+            "UnauthRoleName": "mikes-weather-app-20190428161249-unauthRole",
+            "StackName": "mikes-weather-app-20190428161249",
+            "StackId": "arn:aws:cloudformation:us-west-2:198625389633:stack/mikes-weather-app-20190428161249/249dd9e0-6a0b-11e9-abe9-0ad5109330ec"
+        },
+        "categories": {
+            "auth": {
+                "cognito368b21dc": {}
+            }
+        }
+    }
+}

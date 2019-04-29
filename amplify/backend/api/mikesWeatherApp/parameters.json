@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "mikesWeatherApp",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito368b21dc",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

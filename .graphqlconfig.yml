@@ -1,0 +1,16 @@
+projects:
+  mikesWeatherApp:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        graphQLApiId: fldeil2wozb57lbrfdq7jsf5ai
+      endpoints:
+        prod: >-
+          https://dwfob6pt7nheffs5dbgbne43se.appsync-api.us-west-2.amazonaws.com/graphql
